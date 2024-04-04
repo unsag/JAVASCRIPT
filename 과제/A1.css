@@ -1,0 +1,139 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 260px;
+  background: #11101d;
+  z-index: 100;
+  transition: all 0.5s ease;
+}
+.sidebar .logo {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.sidebar .logo-details i {
+  font-size: 30px;
+  color: #fff;
+  height: 50px;
+  min-width: 78px;
+  text-align: center;
+  line-height: 50px;
+}
+.main {
+  padding: 600px;
+  margin-top: 40px;
+  margin-left: 300px;
+  margin-right: 40px;
+  border-radius: 100px;
+  background-color: beige;
+}
+.logo {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.head1 {
+  margin-left: 30px;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+}
+a {
+  text-decoration-line: none;
+  color: white;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.menu-list a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.menu-list a:hover {
+  background-color: #1d1b31;
+}
+
+.menu-list a i {
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.main h1 {
+  text-align: center;
+  margin-top: -550px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #252440;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#postForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#postContent {
+  flex: 1;
+  margin-right: 10px;
+}
+
+#postForm button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.sidebar .profile-details {
+  position: fixed;
+  bottom: 0;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1d1b31;
+  padding: 12px 0;
+}
+.sidebar .profile-details .profile_name,
+.sidebar .profile-details .job {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  white-space: nowrap;
+  margin-left: -50px;
+}
+.sidebar .profile-icon {
+  margin-left: 20px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="A1.js" defer></script>
+    <link rel="stylesheet" href="A1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="logo">
+          <a href="#">
+            <i class="far fa-address-card" id="img1"></i>
+            <span class="head1">게시판</span>
+          </a>
+        </div>
+        <div class="menu-list">
+          <a href="#">
+            <i class="fas fa-th-large"></i>
+            <span class="menu1">대쉬보드</span>
+          </a>
+          <a href="#">
+            <i class="fas fa-list-ul"></i>
+            <span class="menu1">카테고리</span>
+          </a>
+          <a href="#">
+            <i class="fas fa-pen"></i>
+            <span class="menu1">게시판</span>
+          </a>
+          <a href="#">
+            <i class="fas fa-chart-line"></i>
+            <span class="menu1">차트</span>
+          </a>
+          <a href="#">
+            <i class="fas fa-history"></i>
+            <span class="menu1">히스토리</span>
+          </a>
+          <a href="#">
+            <i class="fas fa-plug"></i>
+            <span class="menu1">플러그인</span>
+          </a>
+          <a href="#">
+            <i class="fas fa-cog"></i>
+            <span class="menu1">설정</span>
+          </a>
+        </div>
+        <div class="profile-details">
+          <div class="profile-content"></div>
+          <div class="name-job">
+            <div class="profile_name">Yunseong Cho</div>
+            <div class="job">Web developers</div>
+          </div>
+          <div class="profile-icon">
+            <i class="fas fa-sign-out-alt"></i>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <h1>게시판</h1>
+        <form id="postForm">
+          <textarea id="postContent" placeholder="내용을 입력하세요"></textarea>
+          <button type="submit">확인</button>
+        </form>
+        <div id="posts"></div>
+      </div>
+    </div>
+  </body>
+</html>
